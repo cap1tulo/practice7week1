@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Practice</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container mt-5">
+    <h1>JavaScript Practice - Operators, Control Flow, Loops</h1>
+
+    <!-- Task: Sum of Two Numbers -->
+    <h2>Calculate Sum</h2>
+    <input type="number" id="num1" placeholder="Enter first number" class="form-control mb-2">
+    <input type="number" id="num2" placeholder="Enter second number" class="form-control mb-2">
+    <button class="btn btn-primary" onclick="getSum()">Get Sum</button>
+    <p id="sumResult"></p>
+
+    <!-- Task: Check if Square -->
+    <h2>Square Checker</h2>
+    <input type="number" id="squareInput" placeholder="Enter a number" class="form-control mb-2">
+    <button class="btn btn-primary" onclick="isSquare()">Check if Square</button>
+    <p id="squareResult"></p>
+
+    <!-- Task: Greeting -->
+    <h2>Greeting</h2>
+    <input type="text" id="firstName" placeholder="First Name" class="form-control mb-2">
+    <input type="text" id="lastName" placeholder="Last Name" class="form-control mb-2">
+    <input type="number" id="age" placeholder="Age" class="form-control mb-2">
+    <button class="btn btn-primary" onclick="greeting()">Greet</button>
+    <p id="greetingResult"></p>
+
+    <!-- Task: Minimum of Three Numbers -->
+    <h2>Find Minimum of Three Numbers</h2>
+    <input type="number" id="min1" placeholder="Number 1" class="form-control mb-2">
+    <input type="number" id="min2" placeholder="Number 2" class="form-control mb-2">
+    <input type="number" id="min3" placeholder="Number 3" class="form-control mb-2">
+    <button class="btn btn-primary" onclick="getMin()">Get Minimum</button>
+    <p id="minResult"></p>
+
+    <!-- Task: Even/Odd Checker -->
+    <h2>Even/Odd Checker</h2>
+    <input type="number" id="evenOdd1" placeholder="Number 1" class="form-control mb-2">
+    <input type="number" id="evenOdd2" placeholder="Number 2" class="form-control mb-2">
+    <input type="number" id="evenOdd3" placeholder="Number 3" class="form-control mb-2">
+    <button class="btn btn-primary" onclick="evenOrOdd()">Check Even/Odd</button>
+    <p id="evenOddResult"></p>
+
+    <!-- Task: Range Checker -->
+    <h2>Range Checker</h2>
+    <input type="number" id="rangeX" placeholder="Start of Range" class="form-control mb-2">
+    <input type="number" id="rangeY" placeholder="End of Range" class="form-control mb-2">
+    <input type="number" id="rangeNum" placeholder="Number to Check" class="form-control mb-2">
+    <button class="btn btn-primary" onclick="inOrOutRange()">Check Range</button>
+    <p id="rangeResult"></p>
+
+    <!-- Task: Create String of Numbers -->
+    <h2>String of Numbers</h2>
+    <input type="number" id="minValue" placeholder="Minimum" class="form-control mb-2">
+    <input type="number" id="maxValue" placeholder="Maximum" class="form-control mb-2">
+    <input type="number" id="stepValue" placeholder="Step" class="form-control mb-2">
+    <button class="btn btn-primary" onclick="createString()">Generate String</button>
+    <p id="stringResult"></p>
+
+    <!-- Task: Range Sum 1 -->
+    <h2>Range Sum 1</h2>
+    <input type="number" id="rangeStart" placeholder="Start" class="form-control mb-2">
+    <input type="number" id="nthTerm" placeholder="N-th Term" class="form-control mb-2">
+    <button class="btn btn-primary" onclick="rangeSum1()">Calculate Range Sum 1</button>
+    <p id="rangeSum1Result"></p>
+
+    <!-- Task: Range Sum 2 -->
+    <h2>Range Sum 2</h2>
+    <input type="number" id="sumStart" placeholder="Start" class="form-control mb-2">
+    <input type="number" id="sumEnd" placeholder="End" class="form-control mb-2">
+    <button class="btn btn-primary" onclick="rangeSum2()">Calculate Range Sum 2</button>
+    <p id="rangeSum2Result"></p>
+
+    <!-- Task: Series Sum -->
+    <h2>Series Sum</h2>
+    <input type="number" id="seriesN" placeholder="N-th Term" class="form-control mb-2">
+    <button class="btn btn-primary" onclick="seriesSum()">Calculate Series Sum</button>
+    <p id="seriesResult"></p>
+
+    <!-- Task: Count Digits -->
+    <h2>Count Digits</h2>
+    <input type="number" id="digitInput" placeholder="Enter Number" class="form-control mb-2">
+    <button class="btn btn-primary" onclick="countDigits()">Count Digits</button>
+    <p id="digitResult"></p>
+</div>
+
+<script src="script.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
